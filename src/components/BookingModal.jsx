@@ -42,7 +42,8 @@ export default function BookingModal({ train, journeyDate, onClose, onConfirm })
           <div>
             <strong>{train.from}</strong>
             <span>{train.departure}</span>
-            </div>
+                        git branch -M main
+            git push -u origin main</div>
           <div className="modal-trip-middle">→ <small>{formatDate(journeyDate)}</small></div>
           <div className="modal-trip-destination"><strong>{train.to}</strong><span>{train.arrival}</span></div>
         </div>
